@@ -699,4 +699,40 @@ section.nopad{
     background-color: #B28756;
 }
 
+.section-somefacts .division-bar{
+    margin-top: 0px;
+    width: 20px;
+    height: 3px;
+}
+
+.section-somefacts h1 {
+    font-size: 40px;
+    color: #B28756;
+}
+
+.section-somefacts h2 {
+    text-transform: uppercase;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.section-fact p {
+    color: #888;
+    margin-bottom: 0px;
+}
+
+.section-somefacts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-fact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: inherit;
+}
 
