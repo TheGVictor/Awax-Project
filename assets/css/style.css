@@ -570,7 +570,7 @@ section.nopad{
     height: auto;
     padding-top: 80px;
     padding-bottom: 20px;
-    background-color: #f7f7f7
+    background-color: #e9e9e9
 }
 
 .section-price{
@@ -666,8 +666,16 @@ section.nopad{
     height: 1px;
     background-color: #999;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
+
+.section-premium-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 .section-premium-area  .sliders-pointers {
     margin-top: 30px;
