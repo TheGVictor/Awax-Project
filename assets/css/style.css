@@ -45,7 +45,12 @@ header {
     width: 80px;
     height: 80px;
     background: linear-gradient(90deg, #b28756, #574735);
+}
 
+.menu-opener {
+    width: 45px;
+    margin-right: 30px;
+    display: none;
 }
 
 .menu{
@@ -1001,4 +1006,166 @@ footer i {
     text-align: center;
 }
 
+@media (min-width:450px) and (max-width:820px) {
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0,0,0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
 
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 25px;
+        margin-left: 50px;
+        border: 0;
+    }
+
+    .menu li.active a, .menu li.active{
+        border: 0;
+    }
+
+    .menu li.active a {
+        color: #B28756;
+    }
+
+    .menu-opener {
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .section-aboutus {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-aboutus--left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .section-team {
+        max-width: 580px;
+    }
+
+    .slide {
+        margin-bottom: 50px;
+    }
+
+    .section-client-depoiment {
+        margin-bottom: 50px;
+    }
+
+    .section-logo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-logo img {
+        margin-right: 30px;
+    }
+
+    .section-logo img:last-child {
+        margin-right: 0px;
+    }
+
+    .section-price{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-price-table {
+        min-width: 50%;
+        border-radius: 20px;
+    }
+
+    .section-premium-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-premium{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-premium-content {
+        width: 30%;
+        margin-top: 50px;
+    }
+
+    .section-somefacts {
+        flex-wrap: wrap;
+    }
+
+    .section-fact {
+        width: 50%;
+    }
+
+    .section-fact:nth-child(3),
+    .section-fact:nth-child(4) {
+        margin-top: 50px;
+    }
+
+
+    .section-social-logos{
+        margin-left: 50px;
+    }
+
+    .section-social-tell {
+        margin-right: 50px;
+    }
+
+    .section-map-info {
+        height: auto;
+    }
+
+    .section-map-info-item {
+        margin-bottom: 20px;
+    }
+
+    .section-map-area{
+        height: auto;
+    }
+
+    .section-map {
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    .footer-first-third{
+        display: none;
+    }
+
+}
