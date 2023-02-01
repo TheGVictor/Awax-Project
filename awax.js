@@ -3,10 +3,10 @@ let img = document.querySelector('.menu-opener')
 
 function openMenu() {
 
-    abaNav.style.display = "block"
-
-    if(abaNav.style.display = "block") {
-            abaNav.style.display = "none"
+    if(abaNav.style.display = "none") {
+            abaNav.style.display = "flex"
+        } else {
+            abaNav.style.display = "flex"
         }
     
     
